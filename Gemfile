@@ -23,7 +23,7 @@ gem 'less-rails-fontawesome', '~> 0.4'
 gem 'unicorn'
 gem "devise", "~> 3.2.0"
 gem 'git', '~> 1.2.6'
-
+gem 'sqlite3'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
@@ -47,9 +47,4 @@ group :development, :test do
   gem 'factory_girl_rails', '~> 4.0'
   gem 'coveralls', require: false
   gem 'pry-nav'
-end
-
-group :production do
-  gem 'rails_12factor'
-  gem 'pg'
 end
